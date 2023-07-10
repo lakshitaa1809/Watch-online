@@ -2,13 +2,13 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/firestore";
 const firebaseConfig = {
-  apiKey: "AIzaSyBxcwrZIuDlwy4qh1HgYByI3vaR3WZnRv4",
-  authDomain: "netflix-watchonline-clone.firebaseapp.com",
-  projectId: "netflix-watchonline-clone",
-  storageBucket: "netflix-watchonline-clone.appspot.com",
-  messagingSenderId: "184024003766",
-  appId: "1:184024003766:web:30d1144bd71b86d12f6217",
-  measurementId: "G-17T8397S2T",
+  apiKey: "AIzaSyCEym8yleSPFlRj4cnLUxKISMg4k9TmK7s",
+  authDomain: "netflix-clone-watchonline.firebaseapp.com",
+  projectId: "netflix-clone-watchonline",
+  storageBucket: "netflix-clone-watchonline.appspot.com",
+  messagingSenderId: "90687218538",
+  appId: "1:90687218538:web:9224a72447ee0aa4143b13",
+  measurementId: "G-2YPM2F4BDW",
 };
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db = firebaseApp.firestore();

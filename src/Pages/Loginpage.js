@@ -28,10 +28,7 @@ const Loginpage = () => {
             <div className="login_input">
               <form>
                 <input type="email" placeholder="Email address" />
-                <button
-                  onClick={() => setSignIn(true)}
-                  className="login_btn"
-                >
+                <button onClick={() => setSignIn(true)} className="login_btn">
                   Get Started{" "}
                 </button>
               </form>
