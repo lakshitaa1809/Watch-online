@@ -24,7 +24,7 @@ const App = () => {
       }
     });
     return unsubscribe;
-  }, []); // eslint-disable-next-line
+  }, [dispatch]); // eslint-disable-next-line
   return (
     <div className="App">
       {!user ? (
