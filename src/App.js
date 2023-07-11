@@ -24,7 +24,7 @@ const App = () => {
       }
     });
     return unsubscribe;
-  }, []);
+  }, []); // eslint-disable-next-line
   return (
     <div className="App">
       {!user ? (
@@ -46,4 +46,3 @@ const App = () => {
 };
 
 export default App;
-
