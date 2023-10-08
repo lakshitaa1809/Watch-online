@@ -14,3 +14,6 @@
   background-color: #e50914;
   text-decoration: none;
 }
+.subscription_plans--disabled > button {
+  background-color: gray !important;
+}

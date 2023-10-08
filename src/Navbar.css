@@ -25,6 +25,64 @@
 .avatar {
   position: fixed;
   top: 10px;
-  right: 20px;
+  right: 50px;
   width: 30px;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 1400px;
+  top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+.downarrow {
+  position: fixed;
+  left: 1280px;
+  color: red;
+  top: 5px;
+}
+.UserIcon1 {
+  position: fixed;
+  top: 10px;
+}
+.userprofile {
+  text-decoration: none;
+  position: fixed;
+  top: 55px;
+  color: red;
+  right: 176px;
+}
+.signout {
+  text-decoration: none;
+  position: fixed;
+  top: 80px;
+  color: red;
+  right: 163px;
+  border-color: none;
+  border: none;
+  background-color: none;
+}
+.signout:hover {
+  cursor: pointer;
+}
+.userprofile:hover {
+  cursor: pointer;
+}
+.home {
+  text-decoration: none;
+  position: fixed;
+  top: 30px;
+  color: red;
+  right: 180px;
+}
+.home:hover {
+  cursor: pointer;
 }

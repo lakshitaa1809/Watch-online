@@ -11,7 +11,7 @@ const Userprofilepage = () => {
     <div className="userprofile">
       <Navbar />
       <div className="profile">
-        <h1>Edit Profile</h1>
+        <h1> UserProfile</h1>
         <img
           className="avatar1"
           src="https://i.pinimg.com/originals/0d/dc/ca/0ddccae723d85a703b798a5e682c23c1.png"

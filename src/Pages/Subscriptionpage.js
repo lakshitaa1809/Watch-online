@@ -24,6 +24,7 @@ const Subscriptionpage = () => {
         });
       });
   }, [user.uid]);
+
   const checkplans = async (priceId) => {
     const docRef = await db
       .collection("customers")
@@ -70,14 +71,26 @@ const Subscriptionpage = () => {
   return (
     <div className="Subscription_page" key={user.uid}>
       {Object.entries(products).map(([productId, productData]) => {
+        const isCurrentPackage = productData.prices;
+
+        console.log(isCurrentPackage);
         return (
-          <div className="subscription_plans">
+          <div
+            key={productId}
+            className={`${
+              isCurrentPackage && "subscription_plans--disabled"
+            } subscription_plans`}
+          >
             <div className="subscription_info">
               <h3>{productData.name}</h3>
               <h6>{productData.description}</h6>
             </div>
-            <button onClick={() => checkplans(productData.prices.priceId)}>
-              Subscribe
+            <button
+              onClick={() =>
+                !isCurrentPackage && checkplans(productData.prices.priceId)
+              }
+            >
+              {isCurrentPackage ? "Current Package" : "Subscribe"}
             </button>
           </div>
         );
