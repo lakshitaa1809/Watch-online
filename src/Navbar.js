@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { selectUser } from "./features/Userslice";
 import { auth } from "./firebase";
