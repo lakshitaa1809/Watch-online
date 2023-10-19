@@ -45,7 +45,7 @@
 }
 .downarrow {
   position: fixed;
-  left: 1080px;
+  left: 1000px;
   color: red;
   top: 5px;
 }
@@ -58,14 +58,14 @@
   position: fixed;
   top: 55px;
   color: red;
-  right: 176px;
+  right: 100px;
 }
 .signout {
   text-decoration: none;
   position: fixed;
   top: 80px;
   color: red;
-  right: 163px;
+  right: 100px;
   border-color: none;
   border: none;
   background-color: none;
@@ -81,7 +81,7 @@
   position: fixed;
   top: 30px;
   color: red;
-  right: 180px;
+  right: 100px;
 }
 .home:hover {
   cursor: pointer;
